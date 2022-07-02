@@ -374,6 +374,24 @@ body{
 .nombre__servicio{
     resize: none;
 }
+
+/* Inicio Botón Enviar */
+.boton.dos::after {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: calc(-100% - 80px);
+	border-bottom: 80px solid #286cff;
+	border-right: 80px solid transparent;
+    border: #fff;
+	transition: .4s ease-in-out all;
+}
+
+.boton.dos:hover::after {
+	left: 0;
+}
+/* Fin Botón Enviar */
 /* FIN SERVICIO AL CLIENTE */
 
 /* INICIO CONTACTENOS */
@@ -455,7 +473,7 @@ ul {
 }
 
 .contact-form form button {
-    background: #B70E21;
+    /* background: #B70E21; */ /*AQUI ESTA LA LINEA DEL COLOR BOTON FORMULARIO*/ /*Aqui se modifico botón Enviar*/
     border: 0;
     text-transform: uppercase;
     padding: 1em;
