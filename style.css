@@ -120,7 +120,7 @@ nav ul ul ul li{
 }
 /* FIN MENU INDEX */
 
-/* IMG INDEX */
+/* INICIO IMG INDEX */
 .pelicula-principal {
 	font-size: 16px;
 	min-height: 40.62em;
@@ -137,6 +137,7 @@ nav ul ul ul li{
 	margin: 0 auto;
 	margin-bottom: 6.25em;
 }
+/* FIN IMG INDEX */
 
 /* INICIO MISION VISION VALORES */
 .cards{
@@ -351,6 +352,89 @@ body{
 /* FIN RUTAS */
 
 /* INICIO HORARIOS */
+/* Inicio horario 1 */
+.img__horario1 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: url(./img_horarios/horario_1.jpg);
+    width: 800px;
+    height:600px;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.img__horario1 .contenedor__horario1 {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+/* Fin horario 1 */
+
+/* Inicio horario 2 */
+.img__horario2 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: url(./img_horarios/horario_2.jpg);
+    width: 800px;
+    height:600px;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.img__horario2 .contenedor__horario2 {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+/* Fin horario 2 */
+
+/* Inicio horario 3 */
+.img__horario3 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: url(./img_horarios/horario_3.jpg);
+    width: 800px;
+    height:600px;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.img__horario3 .contenedor__horario3 {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+/* Fin horario 3 */
+
+/* Inicio horario 4 */
+.img__horario4 {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: url(./img_horarios/horario_4.jpg);
+    width: 800px;
+    height:600px;
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+.img__horario4 .contenedor__horario4 {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+/* Fin horario 4 */
 /* FIN HORARIOS */
 
 /* INICIO SEGUIR RUTAS */
@@ -444,7 +528,6 @@ ul {
 
 .contact-form form label {
     display: block;
-    color: #222222;
 }
 
 .nombre_contactenos{

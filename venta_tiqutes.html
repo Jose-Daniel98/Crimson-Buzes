@@ -52,45 +52,48 @@
 
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
+                <h3>Contact us</h3>
                 <form action="">
-                    <ul>
-                        <section class="radio_venta_tiqutes" >
-                                <!-- <legend>Escoja la ruta</legend> -->
-                                <h3>Escoja la ruta</h3>
-                                <li><input type="radio" id="admin" name="grupo"/>SAN JOSE - TURRIALBA</li>
-                                <li><input type="radio" id="user" name="grupo"/>TURRIALBA - SAN JOSE</li>
-                                <li><input type="radio" id="user" name="grupo"/>CARTAGO - TURRIALBA</li>
-                                <li><input type="radio" id="user" name="grupo"/>TURRIALBA - CARTAGO</li>
-                                <li><input type="radio" id="user" name="grupo"/>SIQUIRRES - TURRIALBA</li>
-                                <li><input type="radio" id="user" name="grupo"/>TURRIALBA - SIQUIRRES</li>
-                        </section>
-                    </ul>
-
-                    <div class="div_btn_escoger_asiento">
-                        <section class="escoger_asiento">
-                            <fieldset>
-                                <button class="btn_escoger_asiento">Escoger Asiento</button>
-                            </fieldset>
-                            <fieldset>
-                                <button class="btn_pagar_tiquete">Pagar Tiquete</button>
-                            </fieldset>
-                        </section>
-                    </div>
-                            <section>
-                                <form name="form_fecha_hora">
-                                    <!-- Campo de entrada de fecha -->
-                                    <legend>Selecciona la fecha deseada:</legend>
-                                    <input type="date" name="fecha" min="2022-01-01" max="2025-12-31" step="2"/>
-                                    <!-- Campo de entrada de hora -->
-                                    <legend>Selecciona la hora deseada:</legend>
-                            <select name="horas">
-                                <option value="viaje1">4:00 am</option>
-                                <option value="viaje2">5:00 am</option>
-                                <option value="viaje3">6:00 am</option>
-                                <option value="viaje4">7:00 am</option>
-                            </select>
-                                </form>
-                            </section>
+                    <p>
+                        <label>Escoja la ruta a viajar</label>
+                        <select name="rutas">
+                            <option value="viaje0">Seleccione la ruta</option>
+                            <option value="viaje1">SAN JOSE - TURRIALBA</option>
+                            <option value="viaje2">TURRIALBA - SAN JOSE</option>
+                            <option value="viaje3">CARTAGO - TURRIALBA</option>
+                            <option value="viaje4">TURRIALBA - CARTAGO</option>
+                            <option value="viaje5">SIQUIRRES - TURRIALBA</option>
+                            <option value="viaje6">TURRIALBA - SIQUIRRES</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Seleccione el servicio a viajar</label>
+                        <select name="servicio">
+                            <option value="viaje0">Seleccione el servicio a viajar</option>
+                            <option value="viaje1">EXPRESO</option>
+                            <option value="viaje2">COLECTIVO</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Seleccione la fecha de viaje</label>
+                        <textarea class="nombre_contactenos" name="mensaje__contactenos" rows="1" placeholder="Escriba la fecha de viaje"></textarea>
+                    </p>
+                    <p>
+                        <label>Seleccione la hora de viaje</label>
+                        <select name="horas">
+                            <option value="viaje0">Seleccione la hora</option>
+                            <option value="viaje1">4:00 am</option>
+                            <option value="viaje2">5:00 am</option>
+                            <option value="viaje3">6:00 am</option>
+                            <option value="viaje4">7:00 am</option>
+                        </select>
+                    </p>
+                    <p class="block">
+                        <button>Escoger Asientos</button>
+                    </p>
+                    <p class="block">
+                        <button>Pagar Tiquete</button>
+                    </p>
                 </form>
             </div>
             <div class="contact-info">
